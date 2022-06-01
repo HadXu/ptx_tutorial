@@ -3,7 +3,7 @@
 
 LLVM是用来统一各个编译器语言与硬件之间的产生的gap。 所有的程序语言一旦接入到LLVM层面，那么在各个硬件上的运行就不存在障碍。而CUDA等硬件层面一直是LLVM发力的方向。因为上层接入MLIR，这是深度学习方面的一个研究方向。
 
-PTX是什么？
+### PTX是什么？
 [PTX](https://docs.nvidia.com/cuda/parallel-thread-execution/index.html)是NVIDIA官方的针对GPU的一种汇编语言。 目前的LLVM去驱动NVIDIA的GPU就是采用的PTX来进行运行。
 
 ## 流程
